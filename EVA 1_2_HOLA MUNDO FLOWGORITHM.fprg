@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA 1_2_HOLA MUNDO FLOWGORITHM"/>
+        <attribute name="authors" value="paola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-03 06:16:36 p. m."/>
+        <attribute name="created" value="cGFvbGE7TEFQVE9QLUc2TE9ESkpFOzIwMjYtMDktMDM7MDY6MDg6MjYgcC4gbS47MzA3NQ=="/>
+        <attribute name="edited" value="cGFvbGE7TEFQVE9QLUc2TE9ESkpFOzIwMjYtMDktMDM7MDY6MTY6MzYgcC4gbS47MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;La vaca lola hace mu&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
