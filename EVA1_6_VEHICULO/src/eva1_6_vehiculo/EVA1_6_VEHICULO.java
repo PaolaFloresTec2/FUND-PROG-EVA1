@@ -34,6 +34,7 @@ public class EVA1_6_VEHICULO {
         año = captu.nextInt();
         System.out.println("Captura el color");
         color = captu.nextLine();
+        captu.nextLine();
         System.out.println("Captura el kilometraje");
         kilometraje = captu.nextInt();
         System.out.println("Captura el precio");
