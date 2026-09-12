@@ -29,6 +29,13 @@ public class EVA1_5_CAPTURA_2 {
        edad = captu.nextInt();
        System.out.println("Captura el salario:");
        salario = captu.nextDouble();
+       System.out.println("DATOS CAPTURADOS");
+       System.out.print("Nombre: ");
+       System.out.println(nombre);
+       System.out.print("Edad: ");
+       System.out.println(edad);
+       System.out.print("Salario: ");
+       System.out.println(salario);
     }
     
 }
