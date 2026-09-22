@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Flowgorithm EVA1_1_IF"/>
+        <attribute name="authors" value="paola"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 06:49:30 p. m."/>
+        <attribute name="created" value="cGFvbGE7TEFQVE9QLUc2TE9ESkpFOzIwMjYtMDktMjE7MDY6NDc6MjkgcC4gbS47MzA4MQ=="/>
+        <attribute name="edited" value="cGFvbGE7TEFQVE9QLUc2TE9ESkpFOzIwMjYtMDktMjE7MDY6NDk6MzAgcC4gbS47MTszMTgz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cu&#225;l es tu edad&quot;" newline="True"/>
+            <input variable="edad"/>
+            <if expression="edad &gt;= 18">
+                <then>
+                    <output expression="&quot;Pasale jochis&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No le pasas compita&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
