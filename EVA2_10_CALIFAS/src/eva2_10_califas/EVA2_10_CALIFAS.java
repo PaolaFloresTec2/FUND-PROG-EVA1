@@ -23,15 +23,15 @@ public class EVA2_10_CALIFAS {
         prome = captu.nextDouble();
         
         if(prome <= 0)
-            System.out.println("Dato inválido");
+            System.out.println("Dato inválido, has algo bien");
         else if(prome <= 70)
-            System.out.println("Insuficiente");
+            System.out.println("Insuficiente, vayase ya para su casa");
         else if(prome <= 80)
-            System.out.println("Aceptable");
+            System.out.println("Aceptable, echele más ganitas, please");
         else if(prome <= 90)
-            System.out.println("Bueno");
-        else if(prome == 100)
-            System.out.println("Sobresaliente");
+            System.out.println("Bueno, pero puede mejorar");
+        else if(prome <= 100)
+            System.out.println("Sobresaliente, pase por su título my friend");
         else if(prome > 100)
             System.out.println("Dato inválido");
     }
