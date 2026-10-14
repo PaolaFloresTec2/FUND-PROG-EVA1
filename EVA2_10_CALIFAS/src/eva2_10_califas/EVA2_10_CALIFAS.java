@@ -24,7 +24,7 @@ public class EVA2_10_CALIFAS {
         
         if(prome <= 0)
             System.out.println("Dato inválido, has algo bien");
-        else if(prome <= 70)
+        else if(prome < 70)
             System.out.println("Insuficiente, vayase ya para su casa");
         else if(prome <= 80)
             System.out.println("Aceptable, echele más ganitas, please");
